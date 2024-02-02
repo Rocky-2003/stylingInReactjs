@@ -5,14 +5,12 @@ import { styled } from "styled-components";
 import logo from "../assets/logo.png";
 
 const StyledHeader = styled.header`
- 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 
   & img {
     object-fit: contain;
@@ -50,12 +48,11 @@ const StyledHeader = styled.header`
 
 export default function Header() {
   return (
-    <StyledHeader>
+    <heStyledHeaderader>
       <img src={logo} alt="A canvas" />
       <h1>ReactArt</h1>
-      <p >
-        A community of artists and art-lovers.
-      </p>
-    </StyledHeader>
+      <p>A community of artists and art-lovers.</p>
+    </heStyledHeaderader>
   );
+  f;
 }
